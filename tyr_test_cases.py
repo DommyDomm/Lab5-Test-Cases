@@ -41,8 +41,8 @@ sex:M age:40 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # 65-69 
 # 70-74 
 # 75-79
-#age 22
-sex:F age:22 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 22
+#age 22 leah
+sex:F age:22 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:22 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:22 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:22 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -51,8 +51,8 @@ sex:M age:22 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
 sex:M age:22 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:22 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:22 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
-# age 37
-sex:F age:37 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 37
+# age 37 leah
+sex:F age:37 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:37 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:37 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:37 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -61,8 +61,8 @@ sex:M age:37 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
 sex:M age:37 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:37 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:37 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
-# age 42 
-sex:F age:42 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 42
+# age 42 leah
+sex:F age:42 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:42 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:42 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:22 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -71,8 +71,8 @@ sex:M age:42 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
 sex:M age:42 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:42 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:42 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
-# 47 
-sex:F age:47 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 47
+# 47 leah/ someone else maybe
+sex:F age:47 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:47 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:47 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:47 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -82,7 +82,7 @@ sex:M age:47 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:47 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:47 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # age 53
-sex:F age:53 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 53
+sex:F age:53 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
 sex:F age:53 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:53 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:53 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -92,7 +92,7 @@ sex:M age:53 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:53 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:53 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # age 56
-sex:F age:56 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 61
+sex:F age:56 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:56 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:56 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:56 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -102,7 +102,7 @@ sex:M age:56 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:56 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:56 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # age 61
-sex:F age:61 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 61
+sex:F age:61 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:61 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:61 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:61 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -112,7 +112,7 @@ sex:M age:61 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:61 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:61 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # age 66
-sex:F age:66 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 66
+sex:F age:66 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:66 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:66 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:66 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -122,7 +122,7 @@ sex:M age:66 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:66 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:66 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # age 72
-sex:F age:72 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 72
+sex:F age:72 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:72 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:72 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:72 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
@@ -132,7 +132,7 @@ sex:M age:72 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:72 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:72 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
 # age 76
-sex:F age:76 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 # middle value age 76
+sex:F age:76 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
 sex:F age:76 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:F age:76 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:F age:76 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
