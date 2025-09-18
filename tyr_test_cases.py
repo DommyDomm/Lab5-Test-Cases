@@ -237,4 +237,24 @@ sex:M age:76 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
 sex:M age:76 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
 sex:M age:76 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
 sex:M age:76 cho:105 smo:Y hdl:60 sbp:100 med:N out:<1
+######25% of code ####### need to fix outputs 
+sex:F age:20 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
+sex:F age:20 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:F age:20 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
+
+sex:M age:20 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
+sex:M age:20 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:M age:20 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
+# mid age 20
+sex:F age:20 cho:200 smo:N hdl:42 sbp:130 med:N out:<1 
+sex:F age:20 cho:200 smo:N hdl:42 sbp:130 med:Y out:<1
+sex:F age:20 cho:200 smo:Y hdl:42 sbp:130 med:Y out:<1
+
+sex:M age:20 cho:200 smo:N hdl:42 sbp:130 med:N out:<1
+sex:M age:20 cho:200 smo:N hdl:42 sbp:130 med:Y out:<1
+sex:M age:20 cho:200 smo:Y hdl:42 sbp:130 med:Y out:<1
+#edge
+sex:F age:20 cho:285 smo:N hdl:42 sbp:130 med:N out:<1 
+sex:F age:20 cho:285 smo:N hdl:42 sbp:130 med:Y out:<1
+sex:F age:20 cho:285 smo:Y hdl:42 sbp:130 med:Y out:<12 
 
