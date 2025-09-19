@@ -136,6 +136,72 @@ sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:8
 sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:10
 sex:M age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:20
 ###correct#####
+sex:F age:34 cho:280 smo:N hdl:39 sbp:160 med:N out:1 
+sex:F age:34 cho:280 smo:N hdl:39 sbp:160 med:Y out:2 
+sex:F age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:22 
+
+sex:M age:34 cho:280 smo:N hdl:39 sbp:160 med:N out:2
+sex:M age:34 cho:280 smo:N hdl:39 sbp:160 med:Y out:3
+sex:M age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:20
+#correct^
+#ages 50 M and F
+sex:F age:50 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:50 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:F age:50 cho:105 smo:Y hdl:60 sbp:100 med:Y out:1 
+
+sex:M age:50 cho:105 smo:N hdl:60 sbp:100 med:N out:2 
+sex:M age:50 cho:105 smo:N hdl:60 sbp:100 med:Y out:2
+sex:M age:50 cho:105 smo:Y hdl:60 sbp:100 med:Y out:4 
+#correct^
+# mid age 50(beginng range) 
+sex:F age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:2
+sex:F age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:3
+sex:F age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:8
+
+sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:8
+sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:10
+sex:M age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:20
+###correct###^
+
+#edge age 50
+sex:F age:50 cho:285 smo:N hdl:30 sbp:165 med:N out:8
+sex:F age:50 cho:285 smo:N hdl:30 sbp:165 med:Y out:14
+sex:F age:50 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30 
+
+sex:M age:50 cho:285 smo:N hdl:30 sbp:165 med:N out:20
+sex:M age:50 cho:285 smo:N hdl:30 sbp:165 med:Y out:25
+sex:M age:50 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
+####correctttt######
+#ages 79 M and F
+#edge
+sex:F age:79 cho:105 smo:N hdl:60 sbp:100 med:N out:3
+sex:F age:79 cho:105 smo:N hdl:60 sbp:100 med:Y out:3
+sex:F age:79 cho:105 smo:Y hdl:60 sbp:100 med:Y out:4
+
+sex:M age:79 cho:105 smo:N hdl:60 sbp:100 med:N out:10 
+sex:M age:79 cho:105 smo:N hdl:60 sbp:100 med:Y out:10
+sex:M age:79 cho:105 smo:Y hdl:60 sbp:100 med:Y out:12
+####correct####
+
+# mid age 79
+sex:F age:79 cho:200 smo:N hdl:42 sbp:130 med:N out:11 
+sex:F age:79 cho:200 smo:N hdl:42 sbp:130 med:Y out:17
+sex:F age:79 cho:200 smo:Y hdl:42 sbp:130 med:Y out:22
+
+sex:M age:79 cho:200 smo:N hdl:42 sbp:130 med:N out:20
+sex:M age:79 cho:200 smo:N hdl:42 sbp:130 med:Y out:25
+sex:M age:79 cho:200 smo:Y hdl:42 sbp:130 med:Y out:>30
+###correct####
+
+#edge age 79
+sex:F age:79 cho:285 smo:N hdl:30 sbp:165 med:N out:27
+sex:F age:79 cho:285 smo:N hdl:30 sbp:165 med:Y out:>30
+sex:F age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30 
+
+sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:N out:>30
+sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:Y out:>30
+sex:M age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
+###correct###
 
 
 
