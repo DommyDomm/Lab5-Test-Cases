@@ -203,25 +203,36 @@ sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:Y out:>30
 sex:M age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
 ###correct###
 
+########## All levels of SBP ########## 
+sex:F age:40 cho:105 smo:N hdl:55 sbp:100 med:N out:<1
+sex:F age:40 cho:105 smo:N hdl:55 sbp:100 med:Y out:<1
 
+sex:F age:40 cho:105 smo:N hdl:55 sbp:120 med:N out:<1
+sex:F age:40 cho:105 smo:N hdl:55 sbp:120 med:Y out:<1
 
+sex:F age:40 cho:105 smo:N hdl:55 sbp:130 med:N out:<1
+sex:F age:40 cho:105 smo:N hdl:55 sbp:130 med:Y out:<1
 
+sex:F age:40 cho:105 smo:N hdl:55 sbp:140 med:N out:<1
+sex:F age:40 cho:105 smo:N hdl:55 sbp:140 med:Y out:<1
 
+sex:F age:40 cho:105 smo:N hdl:55 sbp:160 med:N out:<1
+sex:F age:40 cho:105 smo:N hdl:55 sbp:160 med:Y out:<1
 
+sex:M age:40 cho:105 smo:N hdl:55 sbp:100 med:N out:1
+sex:M age:40 cho:105 smo:N hdl:55 sbp:100 med:Y out:1
 
+sex:M age:40 cho:105 smo:N hdl:55 sbp:120 med:N out:1
+sex:M age:40 cho:105 smo:N hdl:55 sbp:120 med:Y out:1
 
+sex:M age:40 cho:105 smo:N hdl:55 sbp:130 med:N out:1
+sex:M age:40 cho:105 smo:N hdl:55 sbp:130 med:Y out:1
 
+sex:M age:40 cho:105 smo:N hdl:55 sbp:140 med:N out:1
+sex:M age:40 cho:105 smo:N hdl:55 sbp:140 med:Y out:1
 
-
-
-
-
-
-
-
-
-
-
+sex:M age:40 cho:105 smo:N hdl:55 sbp:160 med:N out:1
+sex:M age:40 cho:105 smo:N hdl:55 sbp:160 med:Y out:1
 
 
 
