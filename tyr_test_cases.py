@@ -1,5 +1,79 @@
-# 
+########## All age edge cases ##########
+sex:M age:20 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:M age:35 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:M age:45 cho:120 smo:N hdl:60 sbp:100 med:N out:1
+sex:M age:55 cho:120 smo:N hdl:60 sbp:100 med:N out:3
+sex:M age:65 cho:120 smo:N hdl:60 sbp:100 med:N out:6
+sex:M age:75 cho:120 smo:N hdl:60 sbp:100 med:N out:10
 
+sex:F age:20 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:35 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:45 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:55 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:65 cho:120 smo:N hdl:60 sbp:100 med:N out:1
+sex:F age:75 cho:120 smo:N hdl:60 sbp:100 med:N out:3
+
+sex:F age:34 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:39 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:44 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:49 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:59 cho:120 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:64 cho:120 smo:N hdl:60 sbp:100 med:N out:1
+sex:F age:69 cho:120 smo:N hdl:60 sbp:100 med:N out:1
+sex:F age:74 cho:120 smo:N hdl:60 sbp:100 med:N out:2
+sex:F age:79 cho:120 smo:N hdl:60 sbp:100 med:N out:3
+
+########## All levels of cholesterol ##########
+# Non-smoker
+## Edge Case
+sex:F age:45 cho:159 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:45 cho:160 smo:N hdl:60 sbp:100 med:N out:<1
+
+sex:F age:45 cho:199 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:45 cho:200 smo:N hdl:60 sbp:100 med:N out:<1
+
+sex:F age:45 cho:239 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:45 cho:240 smo:N hdl:60 sbp:100 med:N out:1
+
+sex:F age:45 cho:279 smo:N hdl:60 sbp:100 med:N out:1
+sex:F age:45 cho:280 smo:N hdl:60 sbp:100 med:N out:1
+
+# Smoker
+## Edge Case
+sex:F age:45 cho:159 smo:Y hdl:60 sbp:100 med:N out:1
+sex:F age:45 cho:160 smo:Y hdl:60 sbp:100 med:N out:1
+
+sex:F age:45 cho:199 smo:Y hdl:60 sbp:100 med:N out:1
+sex:F age:45 cho:200 smo:Y hdl:60 sbp:100 med:N out:3
+
+sex:F age:45 cho:239 smo:Y hdl:60 sbp:100 med:N out:3
+sex:F age:45 cho:240 smo:Y hdl:60 sbp:100 med:N out:5
+
+sex:F age:45 cho:279 smo:Y hdl:60 sbp:100 med:N out:5
+sex:F age:45 cho:280 smo:Y hdl:60 sbp:100 med:N out:8
+
+########## All levels of HDL ##########
+# Non-Smoker
+## Edge Case
+sex:F age:45 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
+
+sex:F age:45 cho:105 smo:N hdl:59 sbp:100 med:N out:<1
+sex:F age:45 cho:105 smo:N hdl:50 sbp:100 med:N out:<1
+
+sex:F age:45 cho:105 smo:N hdl:49 sbp:100 med:N out:<1
+sex:F age:45 cho:105 smo:N hdl:40 sbp:100 med:N out:<1
+
+# Smoker
+## Edge Case
+sex:F age:45 cho:105 smo:Y hdl:60 sbp:100 med:N out:1
+
+sex:F age:45 cho:105 smo:Y hdl:59 sbp:100 med:N out:1
+sex:F age:45 cho:105 smo:Y hdl:50 sbp:100 med:N out:1
+
+sex:F age:45 cho:105 smo:Y hdl:49 sbp:100 med:N out:1
+sex:F age:45 cho:105 smo:Y hdl:40 sbp:100 med:N out:1
+
+############################################################################################
 
 # Edge cases:( beginning and end of sub ranges)
 # Sex: M, F
@@ -10,17 +84,18 @@
 # Sbp: 120-160
 # Med: Y, N
 #edge for 34 and cho
-sex:F age:34 cho:199 smo:N hdl:40 sbp:130 med:N out:1 
-sex:F age:34 cho:239 smo:N hdl:49 sbp:139 med:Y out:2 
+sex:F age:34 cho:199 smo:N hdl:40 sbp:130 med:N out:<1 
+sex:F age:34 cho:239 smo:N hdl:49 sbp:139 med:Y out:<1
 
-sex:M age:34 cho:199 smo:N hdl:49 sbp:120 med:Y out:3
-sex:M age:34 cho:239 smo:Y hdl:40 sbp:129 med:Y out:20
+sex:M age:34 cho:199 smo:N hdl:49 sbp:120 med:Y out:<1
+sex:M age:34 cho:239 smo:Y hdl:40 sbp:129 med:Y out:4
 
-sex:F age:59 cho:240 smo:N hdl:50 sbp:140 med:N out:<1
-sex:F age:55 cho:279 smo:N hdl:59 sbp:149 med:Y out:<1
+sex:F age:59 cho:240 smo:N hdl:50 sbp:140 med:N out:4
+sex:F age:55 cho:279 smo:N hdl:59 sbp:149 med:Y out:6
 
-sex:M age:59 cho:279 smo:N hdl:59 sbp:140 med:Y out:2
-sex:M age:55 cho:240 smo:Y hdl:50 sbp:159 med:Y out:4 
+sex:M age:59 cho:279 smo:N hdl:59 sbp:140 med:Y out:16
+sex:M age:55 cho:240 smo:Y hdl:50 sbp:159 med:Y out:>30
+
 
 # Corner cases: (at the very end and beginning of every range)
 # Sex: it
@@ -230,5 +305,3 @@ sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:N out:>30
 sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:Y out:>30
 sex:M age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
 ###correct###
-
-
