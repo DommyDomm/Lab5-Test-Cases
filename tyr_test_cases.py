@@ -1,7 +1,7 @@
 # 
 
 
-# Edge cases:( beginning and end of ranges)
+# Edge cases:( beginning and end of sub ranges)
 # Sex: M, F
 # Age: 20-79
 # Cho: 160-280
@@ -9,10 +9,20 @@
 # Hdl: 40-60
 # Sbp: 120-160
 # Med: Y, N
+#edge for 34 and cho
+sex:F age:34 cho:199 smo:N hdl:40 sbp:130 med:N out:1 
+sex:F age:34 cho:239 smo:N hdl:49 sbp:139 med:Y out:2 
 
+sex:M age:34 cho:199 smo:N hdl:49 sbp:120 med:Y out:3
+sex:M age:34 cho:239 smo:Y hdl:40 sbp:129 med:Y out:20
 
+sex:F age:59 cho:240 smo:N hdl:50 sbp:140 med:N out:<1
+sex:F age:55 cho:279 smo:N hdl:59 sbp:149 med:Y out:<1
 
-# Corner cases: ( occur outside of what program is testing for)
+sex:M age:59 cho:279 smo:N hdl:59 sbp:140 med:Y out:2
+sex:M age:55 cho:240 smo:Y hdl:50 sbp:159 med:Y out:4 
+
+# Corner cases: (at the very end and beginning of every range)
 # Sex: it
 # Age: 100-10
 # Cho:100
@@ -48,6 +58,8 @@ sex:M age:50 cho:285 smo:Y hdl:30 sbp:160 med:Y out:>30
 # Sbp: 135,150
 # Med: Y, N
 
+
+#special cases (statistically improbable ex; a healthy 70yo vs a really unhealthy 20 yo)
 ##can use these to create different combinations####
 #test cases for age range/leah
 #age 20 low all values
