@@ -57,6 +57,49 @@ sex:M age:50 cho:285 smo:Y hdl:30 sbp:160 med:Y out:>30
 # Hdl: 54,45
 # Sbp: 135,150
 # Med: Y, N
+##### Male #####
+sex:M age:32 cho:220 smo:Y hdl:54 sbp:135 med:Y out:4
+sex:M age:32 cho:220 smo:Y hdl:54 sbp:135 med:N out:3
+sex:M age:32 cho:220 smo:Y hdl:54 sbp:150 med:Y out:4
+sex:M age:32 cho:220 smo:Y hdl:45 sbp:135 med:Y out:5
+sex:M age:32 cho:220 smo:N hdl:54 sbp:135 med:Y out:1
+sex:M age:32 cho:247 smo:Y hdl:54 sbp:135 med:Y out:6
+
+sex:M age:52 cho:220 smo:Y hdl:54 sbp:135 med:Y out:16
+sex:M age:52 cho:220 smo:Y hdl:54 sbp:135 med:N out:12
+sex:M age:52 cho:220 smo:Y hdl:54 sbp:150 med:Y out:16
+sex:M age:52 cho:220 smo:Y hdl:45 sbp:135 med:Y out:20
+sex:M age:52 cho:220 smo:N hdl:54 sbp:135 med:Y out:8
+sex:M age:52 cho:247 smo:Y hdl:54 sbp:135 med:Y out:20
+
+sex:M age:67 cho:220 smo:Y hdl:54 sbp:135 med:Y out:20
+sex:M age:67 cho:220 smo:Y hdl:54 sbp:135 med:N out:16
+sex:M age:67 cho:220 smo:Y hdl:54 sbp:150 med:Y out:20
+sex:M age:67 cho:220 smo:Y hdl:45 sbp:135 med:Y out:25
+sex:M age:67 cho:220 smo:N hdl:54 sbp:135 med:Y out:16
+sex:M age:67 cho:247 smo:Y hdl:54 sbp:135 med:Y out:25
+
+##### Female #####
+sex:F age:32 cho:220 smo:Y hdl:54 sbp:135 med:Y out:2
+sex:F age:32 cho:220 smo:Y hdl:54 sbp:135 med:N out:1
+sex:F age:32 cho:220 smo:Y hdl:54 sbp:150 med:Y out:3
+sex:F age:32 cho:220 smo:Y hdl:45 sbp:135 med:Y out:3
+sex:F age:32 cho:220 smo:N hdl:54 sbp:135 med:Y out:<1
+sex:F age:32 cho:247 smo:Y hdl:54 sbp:135 med:Y out:5
+
+sex:F age:52 cho:220 smo:Y hdl:54 sbp:135 med:Y out:6
+sex:F age:52 cho:220 smo:Y hdl:54 sbp:135 med:N out:4
+sex:F age:52 cho:220 smo:Y hdl:54 sbp:150 med:Y out:8
+sex:F age:52 cho:220 smo:Y hdl:45 sbp:135 med:Y out:8
+sex:F age:52 cho:220 smo:N hdl:54 sbp:135 med:Y out:2
+sex:F age:52 cho:247 smo:Y hdl:54 sbp:135 med:Y out:8
+
+sex:F age:67 cho:220 smo:Y hdl:54 sbp:135 med:Y out:11
+sex:F age:67 cho:220 smo:Y hdl:54 sbp:135 med:N out:6
+sex:F age:67 cho:220 smo:Y hdl:54 sbp:150 med:Y out:14
+sex:F age:67 cho:220 smo:Y hdl:45 sbp:135 med:Y out:14
+sex:F age:67 cho:220 smo:N hdl:54 sbp:135 med:Y out:6
+sex:F age:67 cho:247 smo:Y hdl:54 sbp:135 med:Y out:14
 
 
 #special cases (statistically improbable ex; a healthy 70yo vs a really unhealthy 20 yo)
