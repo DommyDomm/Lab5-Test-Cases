@@ -20,15 +20,151 @@
 # Hdl:70-30
 # Sbp:100-170
 # Med: sometimes
+######need to fix out puts####
+sex:it age:100 cho:105 smo:N hdl:30 sbp:100 med:sometimes out:invalid 
+sex:M age:60 cho:130 smo:Y hdl:55 sbp:170 med:N out:
+sex:F age:55 cho:300 smo:N hdl:55 sbp:140 med:N out:
+sex:F age:55 cho:220 smo:N hdl:55 sbp:161 med:N out:
+sex:M age:0 cho:281 smo:Y hdl:70 sbp:119 med:Yes out:<1
+sex:F age:80 cho:105 smo:N hdl:39 sbp:161 med:N out:
+########need to fix outputs^^^############
 
 # Typical cases: ( most common or expected input )
 # Sex: M, F
-# Age: 32, 52, 67
+# Age: 22, 52, 67
+
 # Cho:220,247
 # Smo: Y, N
 # Hdl: 54,45
 # Sbp: 135,150
 # Med: Y, N
 
+##can use these to create different combinations####
+#test cases for age range/leah
+#age 20 low all values
+sex:F age:20 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
+sex:F age:20 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:F age:20 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
+
+sex:M age:20 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
+sex:M age:20 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:M age:20 cho:105 smo:Y hdl:60 sbp:100 med:Y out:<1
+####correct###^
+
+#mid range all values
+sex:F age:20 cho:200 smo:N hdl:42 sbp:130 med:N out:<1 
+sex:F age:20 cho:200 smo:N hdl:42 sbp:130 med:Y out:<1
+sex:F age:20 cho:200 smo:Y hdl:42 sbp:130 med:Y out:3 
+
+sex:M age:20 cho:200 smo:N hdl:42 sbp:130 med:N out:1
+sex:M age:20 cho:200 smo:N hdl:42 sbp:130 med:Y out:1 
+sex:M age:20 cho:200 smo:Y hdl:42 sbp:130 med:Y out:5 
+####correct####
+
+#end range
+sex:F age:20 cho:285 smo:N hdl:30 sbp:165 med:N out:1 
+sex:F age:20 cho:285 smo:N hdl:30 sbp:165 med:Y out:2 
+sex:F age:20 cho:285 smo:Y hdl:30 sbp:165 med:Y out:22 
+
+sex:M age:20 cho:285 smo:N hdl:30 sbp:165 med:N out:2
+sex:M age:20 cho:285 smo:N hdl:30 sbp:165 med:Y out:3
+sex:M age:20 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
+
+####correct###
+#edge of range#
+sex:F age:34 cho:280 smo:N hdl:39 sbp:160 med:N out:1 
+sex:F age:34 cho:280 smo:N hdl:39 sbp:160 med:Y out:2 
+sex:F age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:22 
+
+sex:M age:34 cho:280 smo:N hdl:39 sbp:160 med:N out:2
+sex:M age:34 cho:280 smo:N hdl:39 sbp:160 med:Y out:3
+sex:M age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:20
+###correct####
+
+#ages 50 mid range
+sex:F age:50 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:50 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:F age:50 cho:105 smo:Y hdl:60 sbp:100 med:Y out:1 
+
+sex:M age:50 cho:105 smo:N hdl:60 sbp:100 med:N out:2 
+sex:M age:50 cho:105 smo:N hdl:60 sbp:100 med:Y out:2
+sex:M age:50 cho:105 smo:Y hdl:60 sbp:100 med:Y out:4 
+#####correct###
+# mid range values
+sex:F age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:2
+sex:F age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:3
+sex:F age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:8
+
+sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:8
+sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:10
+sex:M age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:20
+
+###correct#####
+sex:F age:34 cho:280 smo:N hdl:39 sbp:160 med:N out:1 
+sex:F age:34 cho:280 smo:N hdl:39 sbp:160 med:Y out:2 
+sex:F age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:22 
+
+sex:M age:34 cho:280 smo:N hdl:39 sbp:160 med:N out:2
+sex:M age:34 cho:280 smo:N hdl:39 sbp:160 med:Y out:3
+sex:M age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:20
+#correct^
+#ages 50 M and F
+sex:F age:50 cho:105 smo:N hdl:60 sbp:100 med:N out:<1
+sex:F age:50 cho:105 smo:N hdl:60 sbp:100 med:Y out:<1
+sex:F age:50 cho:105 smo:Y hdl:60 sbp:100 med:Y out:1 
+
+sex:M age:50 cho:105 smo:N hdl:60 sbp:100 med:N out:2 
+sex:M age:50 cho:105 smo:N hdl:60 sbp:100 med:Y out:2
+sex:M age:50 cho:105 smo:Y hdl:60 sbp:100 med:Y out:4 
+#correct^
+# mid age 50(beginning range)
+sex:F age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:2
+sex:F age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:3
+sex:F age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:8
+
+sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:N out:8
+sex:M age:50 cho:200 smo:N hdl:42 sbp:130 med:Y out:10
+sex:M age:50 cho:200 smo:Y hdl:42 sbp:130 med:Y out:20
+###correct###^
+
+#end of range for all values
+sex:F age:50 cho:285 smo:N hdl:30 sbp:165 med:N out:8
+sex:F age:50 cho:285 smo:N hdl:30 sbp:165 med:Y out:14
+sex:F age:50 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30 
+
+sex:M age:50 cho:285 smo:N hdl:30 sbp:165 med:N out:20
+sex:M age:50 cho:285 smo:N hdl:30 sbp:165 med:Y out:25
+sex:M age:50 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
+####correctttt######
+#ages 79 M and F
+# beginning of range
+sex:F age:79 cho:105 smo:N hdl:60 sbp:100 med:N out:3
+sex:F age:79 cho:105 smo:N hdl:60 sbp:100 med:Y out:3
+sex:F age:79 cho:105 smo:Y hdl:60 sbp:100 med:Y out:4
+
+sex:M age:79 cho:105 smo:N hdl:60 sbp:100 med:N out:10 
+sex:M age:79 cho:105 smo:N hdl:60 sbp:100 med:Y out:10
+sex:M age:79 cho:105 smo:Y hdl:60 sbp:100 med:Y out:12
+####correct####
+# mid range
+# mid age 79
+sex:F age:79 cho:200 smo:N hdl:42 sbp:130 med:N out:11 
+sex:F age:79 cho:200 smo:N hdl:42 sbp:130 med:Y out:17
+sex:F age:79 cho:200 smo:Y hdl:42 sbp:130 med:Y out:22
+
+sex:M age:79 cho:200 smo:N hdl:42 sbp:130 med:N out:20
+sex:M age:79 cho:200 smo:N hdl:42 sbp:130 med:Y out:25
+sex:M age:79 cho:200 smo:Y hdl:42 sbp:130 med:Y out:>30
+###correct####
+
+#end of range 
+sex:F age:79 cho:285 smo:N hdl:30 sbp:165 med:N out:27
+sex:F age:79 cho:285 smo:N hdl:30 sbp:165 med:Y out:>30
+sex:F age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30 
+
+sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:N out:>30
+sex:M age:79 cho:285 smo:N hdl:30 sbp:165 med:Y out:>30
+sex:M age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
+###correct###
 
 
