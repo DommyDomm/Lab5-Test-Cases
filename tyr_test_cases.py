@@ -20,14 +20,23 @@
 # Hdl:70-30
 # Sbp:100-170
 # Med: sometimes
-######need to fix out puts####
-sex:it age:100 cho:105 smo:N hdl:30 sbp:100 med:sometimes out:invalid 
-sex:M age:60 cho:130 smo:Y hdl:55 sbp:170 med:N out:
-sex:F age:55 cho:300 smo:N hdl:55 sbp:140 med:N out:
-sex:F age:55 cho:220 smo:N hdl:55 sbp:161 med:N out:
-sex:M age:0 cho:281 smo:Y hdl:70 sbp:119 med:Yes out:<1
-sex:F age:80 cho:105 smo:N hdl:39 sbp:161 med:N out:
-########need to fix outputs^^^############
+
+# corner cases for age; 20, 79; and cho and F
+sex:F age:20 cho:159 smo:N hdl:60 sbp:119 med:N out:<1 
+sex:M age:20 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
+sex:F age:79 cho:159 smo:N hdl:60 sbp:100 med:N out:3
+sex:M age:79 cho:285 smo:Y hdl:30 sbp:165 med:Y out:>30
+
+#corner cases for  hdl; 60, 39
+sex:F age:20 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
+sex:M age:20 cho:105 smo:N hdl:60 sbp:100 med:N out:<1 
+sex:F age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:22 
+sex:M age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:20
+
+#corner cases sbp ; 119, 160
+sex:M age:50 cho:105 smo:N hdl:60 sbp:119 med:N out:2 
+sex:M age:50 cho:285 smo:Y hdl:30 sbp:160 med:Y out:>30
+
 
 # Typical cases: ( most common or expected input )
 # Sex: M, F
