@@ -12,7 +12,7 @@
 
 
 
-Corner cases: ( occur outside of what program is testing for)
+# Corner cases: ( occur outside of what program is testing for)
 # Sex: it
 # Age: 100-10
 # Cho:100
