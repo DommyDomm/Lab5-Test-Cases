@@ -95,6 +95,20 @@ sex:M age:78 cho:105 smo:N hdl:60 sbp:100 med:Y out:10
 sex:F age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:22
 sex:M age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
 
+########## Incorrect Typical cases ##########
+# cho: 170, 220, 250
+# HDL: 55, 44
+#SBP: 125, 135, 150
+
+sex:F age:37 cho:285 smo:Y hdl:30 sbp:165 med:Y out:22
+sex:M age:37 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
+
+sex:F age:42 cho:285 smo:Y hdl:30 sbp:165 med:Y out:22
+sex:M age:42 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
+
+sex:F age:72 cho:105 smo:N hdl:60 sbp:100 med:N out:3
+sex:M age:72 cho:105 smo:N hdl:60 sbp:100 med:Y out:10
+
 
 ########## Typical cases ##########
 sex:M age:32 cho:220 smo:N hdl:54 sbp:135 med:Y out:1
@@ -123,6 +137,13 @@ sex:F age:60 cho:220 smo:Y hdl:45 sbp:140 med:N out:10
 sex:M age:60 cho:220 smo:Y hdl:45 sbp:140 med:Y out:18
 sex:F age:70 cho:250 smo:N hdl:50 sbp:135 med:Y out:12
 sex:M age:70 cho:250 smo:Y hdl:50 sbp:135 med:Y out:22
+###NEW####
+sex:F age:37 cho:250 smo:N hdl:50 sbp:135 med:Y out:12
+sex:M age:37 cho:250 smo:Y hdl:50 sbp:135 med:Y out:22
+
+sex:F age:42 cho:250 smo:N hdl:50 sbp:135 med:Y out:12
+sex:M age:42 cho:250 smo:Y hdl:50 sbp:135 med:Y out:22
+
 
 
 ########## Special cases ##########
