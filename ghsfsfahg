@@ -62,29 +62,29 @@ sex:F age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:22
 sex:M age:34 cho:280 smo:Y hdl:39 sbp:160 med:Y out:20
 sex:M age:50 cho:105 smo:N hdl:60 sbp:119 med:N out:2 
 sex:M age:50 cho:285 smo:Y hdl:30 sbp:160 med:Y out:>30
-sex:F age:21 cho:160 smo:Y hdl:39 sbp:120 med:N out:4
-sex:M age:78 cho:280 smo:N hdl:60 sbp:100 med:N out:10
+sex:F age:21 cho:160 smo:Y hdl:39 sbp:120 med:N out:1
+sex:M age:78 cho:280 smo:N hdl:60 sbp:100 med:N out:12 
 sex:F age:79 cho:280 smo:Y hdl:30 sbp:165 med:N out:>30
 sex:M age:79 cho:280 smo:Y hdl:30 sbp:165 med:N out:>30
-sex:F age:20 cho:280 smo:Y hdl:30 sbp:165 med:N out:22
+sex:F age:20 cho:280 smo:Y hdl:30 sbp:165 med:N out:14
 ########## Incorrect Corner cases ##########
-sex:M age:21 cho:160 smo:Y hdl:39 sbp:120 med:Y out:6
-sex:F age:78 cho:280 smo:N hdl:60 sbp:100 med:N out:6
+sex:M age:21 cho:160 smo:Y hdl:39 sbp:120 med:Y out:2
+sex:F age:78 cho:280 smo:N hdl:60 sbp:100 med:N out:5
 sex:M age:79 cho:280 smo:Y hdl:30 sbp:165 med:N out:>30
 sex:F age:20 cho:280 smo:Y hdl:30 sbp:165 med:Y out:22
 sex:M age:20 cho:280 smo:Y hdl:30 sbp:165 med:Y out:20
-sex:F age:22 cho:280 smo:Y hdl:30 sbp:165 med:N out:20
-sex:M age:22 cho:280 smo:Y hdl:30 sbp:165 med:Y out:22
-sex:F age:78 cho:105 smo:N hdl:60 sbp:100 med:N out:2
-sex:M age:78 cho:105 smo:N hdl:60 sbp:100 med:Y out:4
-sex:F age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:24
-sex:M age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:26
-sex:F age:22 cho:280 smo:Y hdl:30 sbp:165 med:N out:20
-sex:M age:22 cho:280 smo:Y hdl:30 sbp:165 med:Y out:22
-sex:F age:78 cho:105 smo:N hdl:60 sbp:100 med:N out:2
-sex:M age:78 cho:105 smo:N hdl:60 sbp:100 med:Y out:4
-sex:F age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:24
-sex:M age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:26
+sex:F age:22 cho:280 smo:Y hdl:30 sbp:165 med:N out:14
+sex:M age:22 cho:280 smo:Y hdl:30 sbp:165 med:Y out:20
+sex:F age:78 cho:105 smo:N hdl:60 sbp:100 med:N out:3
+sex:M age:78 cho:105 smo:N hdl:60 sbp:100 med:Y out:10
+sex:F age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:22
+sex:M age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
+sex:F age:22 cho:280 smo:Y hdl:30 sbp:165 med:N out:14
+sex:M age:22 cho:280 smo:Y hdl:30 sbp:165 med:Y out:20
+sex:F age:78 cho:105 smo:N hdl:60 sbp:100 med:N out:3
+sex:M age:78 cho:105 smo:N hdl:60 sbp:100 med:Y out:10
+sex:F age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:22
+sex:M age:34 cho:285 smo:Y hdl:30 sbp:165 med:Y out:20
 
 
 ########## Typical cases ##########
